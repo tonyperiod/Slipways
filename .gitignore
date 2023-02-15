@@ -11,6 +11,11 @@
 *.gch
 *.pch
 
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
 # Fortran module files
 *.mod
 
@@ -67,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Don't ignore plugin Files for wwise
+!Plugins/Wwise
