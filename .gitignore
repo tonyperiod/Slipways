@@ -47,7 +47,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -74,4 +73,8 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Don't ignore plugin Files for wwise
-!Plugins/Wwise
+/.cache
+Plugins/Wwise
+*.prof
+.idea
+
