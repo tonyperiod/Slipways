@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1097980931	TestEvent			\Default Work Unit\TestEvent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1022834912	TestSound	E:\Uni\Year 3\Professional Project\GitHub\Slipways\Slipways_WwiseProject\.cache\Mac\SFX\Aiyaio._D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestSound		3092472
+
