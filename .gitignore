@@ -77,4 +77,4 @@ DerivedDataCache/*
 Plugins/Wwise/ThirdParty/Mac**
 *.prof
 .idea
-
+!Plugins/Wwise/**
