@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Slipways_WwiseProject" GUID="{FF180364-D23E-4670-86CF-A627DF468997}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{A2ACC992-CE7A-4D19-ADAE-9E96152AD625}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{044206E6-6F8B-45F0-BDBC-F9A91CDB1C9B}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{B5A9E4A2-66E6-4A01-A2CF-C9788B82FCF7}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{694A5EE1-C2B6-8B47-3C70-24510628BFE5}</FileHash>
+</ProjectInfo>

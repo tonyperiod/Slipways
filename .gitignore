@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.fbx
 
 # Precompiled Headers
 *.gch
@@ -47,7 +48,6 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Don't ignore plugin Files for wwise
+/.cache
+Plugins/Wwise/ThirdParty/Mac**
+*.prof
+.idea
+!Plugins/Wwise/**

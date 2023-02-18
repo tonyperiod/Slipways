@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{FB2EDB54-3CFD-4077-ABC3-8E90FCA9E6C1}",
+    "Language": "SFX",
+    "Hash": "{1F9D2553-4299-4D5A-4818-1CA3FDB7D019}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "1022834912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Aiyaio..wav",
+      "CachePath": "SFX/Aiyaio._D79FB2B7.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1097980931",
+      "Name": "TestEvent",
+      "ObjectPath": "\\Events\\Default Work Unit\\TestEvent",
+      "GUID": "{41B8F2CD-4FB9-4195-90A2-DEC7F273E9EF}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1022834912"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9DE9F9C7-3834-CC24-68F8-BB15047EEE2D}"
+ }
+}
