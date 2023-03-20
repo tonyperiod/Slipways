@@ -44,6 +44,9 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="PSFX_HoverBoost" ID="{F3741018-96C6-47A2-B0E2-8F1845EF5FA7}" ShortID="430560507">
 									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
@@ -76,6 +79,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="PSFX_HoverBoostStart" ID="{FBA131EB-0C59-4C85-BD46-5C17FAF1F2C0}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0651986813012819"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.25"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>PSFX_HoverBoostStart.wav</AudioFile>
 															<MediaIDList>
@@ -90,6 +98,12 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="HoverBoostLoop" ID="{3FD59DE3-A710-4EDE-A466-FE0CF1DFB560}" ShortID="24328226">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
@@ -110,6 +124,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="PSFX_HoverBoostLoop" ID="{A8A919FE-A120-4325-93E5-E716F7F4F33F}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0843328187467836"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.1"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.25"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>PSFX_HoverBoostLoop.wav</AudioFile>
 															<MediaIDList>
@@ -140,6 +160,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="PSFX_HoverBoostEnd" ID="{E39FA550-E6BF-4FE2-AA19-550D64750D4A}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.18"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>PSFX_HoverBoostEnd.wav</AudioFile>
 											<MediaIDList>
@@ -377,6 +401,12 @@
 				<Folder Name="LSFX" ID="{527309CF-2A36-469C-99CD-59929CBAE22A}" ShortID="501172948">
 					<ChildrenList>
 						<RandomSequenceContainer Name="LSFX_Pour" ID="{9EEA3D18-765F-474F-8619-29699FBCBBE1}" ShortID="702006574">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
@@ -547,6 +577,12 @@
 				<Folder Name="ASFX" ID="{E41A0B91-CF82-4ED1-B25A-AD5E8FCBAA58}" ShortID="167844599">
 					<ChildrenList>
 						<RandomSequenceContainer Name="ASFX_Bubbles" ID="{99C65D58-43B4-4D59-88DD-DD219F990982}" ShortID="886550000">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6EF6989A-57B2-4698-A525-04C796C19F4F}"/>
@@ -567,6 +603,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-001" ID="{C7DC252C-1800-47B1-A807-6278FB030C36}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.8"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-001.wav</AudioFile>
 											<MediaIDList>
@@ -589,6 +630,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-002" ID="{E05950D5-634D-44C7-B66D-EEA3C4E381E5}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-002.wav</AudioFile>
 											<MediaIDList>
@@ -611,6 +656,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-003" ID="{F78B9D4E-3B5C-4AA2-86B4-3ABFE6CF0EC3}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-003.wav</AudioFile>
 											<MediaIDList>
@@ -633,6 +682,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-004" ID="{04D19F7B-3093-4718-B9CB-45D5DBED5EDE}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-004.wav</AudioFile>
 											<MediaIDList>
@@ -655,6 +708,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-005" ID="{89932F09-7205-47DE-8898-0639456096F2}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-005.wav</AudioFile>
 											<MediaIDList>
@@ -677,6 +734,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-006" ID="{A1D3000B-7A08-40BA-B371-E1DDEDD504F5}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-006.wav</AudioFile>
 											<MediaIDList>
@@ -699,6 +761,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-007" ID="{3EB13F17-A147-4C59-ABB9-56DB05347BBD}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-007.wav</AudioFile>
 											<MediaIDList>
@@ -721,6 +787,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-008" ID="{A13D0064-7287-48EC-AB04-ECFDD967D057}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-008.wav</AudioFile>
 											<MediaIDList>
@@ -743,6 +813,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles-009" ID="{EA81085F-9123-461F-808D-78D9123C0E5D}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles-009.wav</AudioFile>
 											<MediaIDList>
@@ -765,6 +839,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="ASFX_Bubbles" ID="{3C3AB948-50A8-49D3-8D44-7338DCD933DF}">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="0.5"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.5"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>ASFX_Bubbles.wav</AudioFile>
 											<MediaIDList>

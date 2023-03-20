@@ -14,6 +14,65 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="PSFX" ID="{F1C1CBB5-3869-4312-AEE0-CA8243671B58}" ShortID="100463073">
+					<ChildrenList>
+						<Event Name="Boost" ID="{C1155C48-8ED0-4104-A7BC-83C9DEBEF8BD}">
+							<ChildrenList>
+								<Action Name="" ID="{50E8DDF7-6B29-4E38-89F4-C5469E506DBD}" ShortID="1069124414">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PSFX_HoverBoost" ID="{F3741018-96C6-47A2-B0E2-8F1845EF5FA7}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoostEnd" ID="{1FEE8A5B-E52A-4CCF-A898-49293F93BA1A}">
+							<ChildrenList>
+								<Action Name="" ID="{40DF3366-785E-48EA-A005-A46BC04761F5}" ShortID="965110811">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PSFX_HoverBoostEnd" ID="{6333C7C5-4A6C-4280-BEA0-71F82C561B73}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{09E54A1B-543D-4DCA-BB1E-A7D9B44B27EE}" ShortID="107708889">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PSFX_HoverBoost" ID="{F3741018-96C6-47A2-B0E2-8F1845EF5FA7}" WorkUnitID="{883E61F6-42E7-44D4-A5AB-6BD39E9A09D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LSFX" ID="{310FFDFD-157A-46EB-82D2-EC4E34D65CFE}" ShortID="878602642">
+					<ChildrenList>
+						<Event Name="Pour" ID="{B76A02A2-EE52-48CF-A8ED-5C38CEF8CE8E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ASFX" ID="{1F4B0B5C-68A7-4394-B6DE-AE3C39BC0195}" ShortID="131810859"/>
+				<Folder Name="MM" ID="{3CEA06DF-6294-4EAA-A96A-48E9550FB6A8}" ShortID="982524730">
+					<ChildrenList>
+						<Event Name="PlayFoundry" ID="{38238178-DFF7-4ACE-BD82-F31EC0C1A487}">
+							<ChildrenList>
+								<Action Name="" ID="{2AE47933-2A0D-4936-A8AE-5D91CD91240F}" ShortID="109630013">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="88Foundry" ID="{2767562F-0486-46E7-89C8-5657E51C6AA6}" WorkUnitID="{88991FA0-193E-40B5-8C2A-A0E9610DB272}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
