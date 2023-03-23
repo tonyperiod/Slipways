@@ -75,7 +75,7 @@ DerivedDataCache/*
 
 # Don't ignore plugin Files for wwise
 /.cache
-Plugins/Wwise/ThirdParty/Mac**
 *.prof
 .idea
 !Plugins/Wwise/**
+Plugins/Wwise/ThirdParty/Mac**
